@@ -34,7 +34,6 @@ export async function getStaticProps() {
 
 
 export default function Home({guitarras, posts, curso}) {
-  console.log('CURSO API',curso)
   return (
     <>
       <Layout 
